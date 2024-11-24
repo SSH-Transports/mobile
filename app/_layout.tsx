@@ -48,7 +48,7 @@ function RootLayoutNav() {
   return (
    <SafeAreaView style={{flex: 1}}>
      <WebView
-       source={{ uri: 'http://localhost:3000' }}
+       source={{ uri: 'http://localhost:3000?isFromMobile=true' }}
        style={styles.webview}
      />
    </SafeAreaView>
